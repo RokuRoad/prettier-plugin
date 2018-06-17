@@ -1,7 +1,7 @@
 {
   "name": "@roku-road/prettier-plugin",
   "repository": "git@github.com:RokuRoad/prettier-plugin.git",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Prettier BrightScript Plugin",
   "main": "dist/main",
   "author": "Igor Alpert <igor.alpert@gmail.com>",
