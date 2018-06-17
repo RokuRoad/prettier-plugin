@@ -1,0 +1,45 @@
+{
+  "name": "@roku-road/prettier-plugin",
+  "repository": "git@github.com:RokuRoad/prettier-plugin.git",
+  "version": "0.0.0",
+  "description": "Prettier BrightScript Plugin",
+  "main": "dist/main",
+  "author": "Igor Alpert <igor.alpert@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "plugin",
+    "beautify",
+    "brightscript",
+    "roku",
+    "roku-dev"
+  ],
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@roku-road/bright": "1.0.4",
+    "prettier": "1.13.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "release": "tsc && semantic-release",
+    "coverage": "jest --coverage",
+    "prepublish": "tsc",
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+  },
+  "devDependencies": {
+    "semantic-release": "15.5.4",
+    "@types/eslint": "4.16.2",
+    "@types/jest": "23.1.0",
+    "@types/node": "^10.3.3",
+    "eslint": "4.19.1",
+    "jest": "23.1.0",
+    "ts-jest": "^22.4.6",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "2.9.2",
+    "weallcontribute": "1.0.8"
+  }
+}
